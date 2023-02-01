@@ -1,11 +1,5 @@
 import { useState } from "react";
-import {
-  Form,
-  Button,
-  OverlayTrigger,
-  Tooltip,
-  Popover,
-} from "react-bootstrap";
+import { Form, Button, OverlayTrigger, Popover } from "react-bootstrap";
 
 const SummaryForm = () => {
   const [isDisabled, setIsDisabled] = useState(false);
